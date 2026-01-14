@@ -1,68 +1,36 @@
-# DSA Repository
+# DSA Repository – My Data Structures & Algorithms Practice (C++)
 
-Structured learning of Data Structures & Algorithms with topic-wise implementation and LeetCode practice.
+This repository contains my DSA and LeetCode solutions written in C++. I am maintaining this repo to improve my problem-solving skills, revise concepts, and prepare for technical interviews.
 
-## Tech Stack
-- **Language:** C++
-- **Practice Platform:** LeetCode
-
-## Goals
-- Build strong DSA fundamentals
-- Prepare for technical interviews
-- Solve 200+ LeetCode problems
+## Contents:
+* [__Arrays__](01_Arrays/)
+* [__Hashing__](02_Hashing/)
+* [__Two Pointers__](03_Two_Pointers/)
+* [__Linked List__](04_Linked_List/)
+* [__Stack & Queue__](05_Stack_Queue/)
+* [__Trees__](06_Trees/)
+* [__Graph__](07_Graph/)
+* [__Dynamic Programming__](08_DP/)
 
 ## Repository Structure
 ```
 DSA/
-│
 ├── 01_Arrays/
-│   ├── notes.md
-│   ├── basics.cpp
-│   └── leetcode/
-│       ├── two_sum.cpp
-│       └── best_time_buy_sell_stock.cpp
-│
 ├── 02_Hashing/
-│   ├── notes.md
-│   └── leetcode/
-│
 ├── 03_Two_Pointers/
-│   ├── notes.md
-│   └── leetcode/
-│
 ├── 04_Linked_List/
-│   ├── notes.md
-│   ├── basics.cpp
-│   └── leetcode/
-│
 ├── 05_Stack_Queue/
-│   ├── notes.md
-│   └── leetcode/
-│
 ├── 06_Trees/
-│   ├── notes.md
-│   └── leetcode/
-│
 ├── 07_Graph/
-│   ├── notes.md
-│   └── leetcode/
-│
-├── 08_DP/
-│   ├── notes.md
-│   └── leetcode/
-│
-└── README.md
+└── 08_DP/
 ```
 
+Each folder contains:
+- `notes.md` - Key concepts and patterns
+- `basics.cpp` - Basic implementations
+- `leetcode/` - LeetCode problem solutions
+
 ## Solution Format
-
-Each solution includes:
-- Problem link
-- Approach/Pattern used
-- Time & Space Complexity
-- Clean, commented code
-
-**Example:**
 ```cpp
 // LeetCode 206 - Reverse Linked List
 // https://leetcode.com/problems/reverse-linked-list/
@@ -83,20 +51,3 @@ public:
     }
 };
 ```
-
-## Progress Tracker
-
-| Topic | Problems Solved | Status |
-|-------|----------------|--------|
-| Arrays | 2 | In Progress |
-| Hashing | 0 | Not Started |
-| Two Pointers | 0 | Not Started |
-| Linked List | 0 | Not Started |
-| Stack & Queue | 0 | Not Started |
-| Trees | 0 | Not Started |
-| Graphs | 0 | Not Started |
-| Dynamic Programming | 0 | Not Started |
-
-## Contributing
-
-Feel free to suggest improvements or report issues!
