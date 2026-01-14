@@ -1,24 +1,18 @@
 # DSA Repository
 
-Structured learning of Data Structures & Algorithms with
-topic-wise implementation and LeetCode practice.
+Structured learning of Data Structures & Algorithms with topic-wise implementation and LeetCode practice.
 
----
+## Tech Stack
+- **Language:** C++
+- **Practice Platform:** LeetCode
 
-## Language
-- C++
-
-## Practice Platform
-- LeetCode
-
-## Goal
+## Goals
 - Build strong DSA fundamentals
 - Prepare for technical interviews
-
----
+- Solve 200+ LeetCode problems
 
 ## Repository Structure
-
+```
 DSA/
 │
 ├── 01_Arrays/
@@ -26,7 +20,7 @@ DSA/
 │   ├── basics.cpp
 │   └── leetcode/
 │       ├── two_sum.cpp
-│       ├── best_time_buy_sell_stock.cpp
+│       └── best_time_buy_sell_stock.cpp
 │
 ├── 02_Hashing/
 │   ├── notes.md
@@ -58,27 +52,22 @@ DSA/
 │   └── leetcode/
 │
 └── README.md
+```
 
----
+## Solution Format
 
-## How I Add Solutions
+Each solution includes:
+- Problem link
+- Approach/Pattern used
+- Time & Space Complexity
+- Clean, commented code
 
-- Problems are organized topic-wise
-- LeetCode problems are stored inside each topic's `leetcode` folder
-- Every solution includes:
-  - Approach / Pattern
-  - Time Complexity
-  - Space Complexity
-
----
-
-## Example Solution Format
-
+**Example:**
 ```cpp
 // LeetCode 206 - Reverse Linked List
+// https://leetcode.com/problems/reverse-linked-list/
 // Pattern: Iterative pointer reversal
-// Time Complexity: O(n)
-// Space Complexity: O(1)
+// Time: O(n) | Space: O(1)
 
 class Solution {
 public:
@@ -93,3 +82,21 @@ public:
         return prev;
     }
 };
+```
+
+## Progress Tracker
+
+| Topic | Problems Solved | Status |
+|-------|----------------|--------|
+| Arrays | 2 | In Progress |
+| Hashing | 0 | Not Started |
+| Two Pointers | 0 | Not Started |
+| Linked List | 0 | Not Started |
+| Stack & Queue | 0 | Not Started |
+| Trees | 0 | Not Started |
+| Graphs | 0 | Not Started |
+| Dynamic Programming | 0 | Not Started |
+
+## Contributing
+
+Feel free to suggest improvements or report issues!
