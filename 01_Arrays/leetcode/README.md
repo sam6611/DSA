@@ -5,6 +5,6 @@ while preparing for coding interviews.
 
 | # | Problem | Approach |
 |---|--------|----------|
-| 1 | [Two Sum](two_sum.cpp) | Hash map |
+| 1 | [Two Sum](two_sum.cpp) | Brute force |
 | 2 | [Contains Duplicate](Contains_Duplicate.cpp) | Sorting |
 
