@@ -4,7 +4,10 @@
 // Approach: Sorting
 // Time Complexity: O(n log n)
 // Space Complexity: O(1) (ignoring sorting space)
-
+#include<iostream>
+#include<vector>
+#include<algorithm>
+using namespace std;
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {

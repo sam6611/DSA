@@ -2,7 +2,9 @@
 // Approach: Brute Force (Array)
 // Time Complexity: O(n^2)
 // Space Complexity: O(1)
-
+#include<iostream>
+#include<vector>
+using namespace std;
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
